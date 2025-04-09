@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LifeSync – A Smart Companion</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f9f6ff;
+      color: #121530;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 60px;
+      background-color: #f9f6ff;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 24px;
+      color: #1b1247;
+    }
+    nav a {
+      margin: 0 16px;
+      text-decoration: none;
+      color: #1b1247;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ff6250;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px;
+      background: linear-gradient(to bottom right, #e5d7fb, #fdf1f5);
+    }
+    .hero img {
+      width: 300px;
+    }
+    .hero-text {
+      max-width: 600px;
+    }
+    .hero-text h1 {
+      font-size: 40px;
+      margin-bottom: 16px;
+      color: #1b1247;
+    }
+    .hero-text p {
+      font-size: 18px;
+      color: #4f4f4f;
+      margin-bottom: 24px;
+    }
+
+    .hero-text button {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-right: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .primary-btn {
+      background-color: #ff6250;
+      color: white;
+    }
+    .secondary-btn {
+      background-color: white;
+      color: #1b1247;
+      border: 1px solid #ddd;
+    }
+
+    .features {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fff;
+    }
+    .features h2 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #1b1247;
+    }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .feature-item {
+      background: #f3ecfc;
+      padding: 24px;
+      border-radius: 12px;
+      transition: box-shadow 0.3s ease;
+    }
+    .feature-item:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .feature-item h3,
+    .quote h3 {
+      margin-top: 12px;
+      font-size: 18px;
+      color: #1b1247;
+    }
+    .feature-item p {
+      font-size: 14px;
+      color: #4f4f4f;
+    }
+
+    .quote {
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      color: #1b1247;
+      font-style: italic;
+      font-size: 16px;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to bottom right, #e5d7fb, #fdf1f5);
+    }
+    .cta h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #1b1247;
+    }
+    .cta button {
+      margin: 10px;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .footer {
+      background: #f9f6ff;
+      padding: 30px 60px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      color: #4f4f4f;
+      font-size: 14px;
+    }
+    .footer a {
+      color: #4f4f4f;
+      text-decoration: none;
+      margin: 4px 10px;
+      transition: color 0.3s ease;
+    }
+    .footer a:hover {
+      color: #ff6250;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">LifeSync</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Features</a>
+      <a href="#">How it Works</a>
+      <a href="#">Family Dashboard</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="/mnt/data/A_2D_digital_illustration_in_modern_flat_style_dep.png" alt="Elder with AI">
+    <div class="hero-text">
+      <h1>A Smart Companion for Your Loved Ones</h1>
+      <p>Real-time care, connection, and comfort — in just one tap.</p>
+      <button class="primary-btn">Try Live Demo</button>
+      <button class="secondary-btn">Sign Up For Free</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Features</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <h3>🧠 Grook-Style Chatbot</h3>
+        <p>Talks bōē ʃ rohd, cheers them ʊp rhɩmə.</p>
+      </div>
+      <div class="feature-item">
+        <h3>❤️ Memory Lane Journal</h3>
+        <p>Talks like friends, brings back memories.</p>
+      </div>
+      <div class="feature-item">
+        <h3>⏰ Routine Builder</h3>
+        <p>Gentle reminders for warmth, meds, and activities.</p>
+      </div>
+      <div class="feature-item">
+        <h3>🤝 Community Connect</h3>
+        <p>Meet volunteers nearby to help or talk.</p>
+      </div>
+      <div class="feature-item">
+        <h3>🎵 Mood Music Therapy</h3>
+        <p>Voice-detected music for peace of mind.</p>
+      </div>
+      <div class="feature-item">
+        <h3>📹 Live Video Window</h3>
+        <p>No switching apps. Stay connected always.</p>
+      </div>
+      <div class="feature-item quote">
+        <p>“Greet yourself én gachīn with love. Your cherished Self: realise.It.” — Bhagavad Gita</p>
+        <small>Your data is safe. No ads. No spam.</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to make Life easier for your Dadi, Nana, or Papa?</h2>
+    <button class="secondary-btn">Sign Up as Elder</button>
+    <button class="secondary-btn">Guest</button>
+    <button class="primary-btn">Sign Up as Family Member</button>
+  </section>
+
+  <footer class="footer">
+    <div>
+      <a href="#">About</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div>
+      <a href="#">Jengrī</a>
+      <a href="#">English</a>
+    </div>
+  </footer>
+</body>
+</html>
